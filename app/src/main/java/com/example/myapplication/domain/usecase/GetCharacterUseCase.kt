@@ -1,9 +1,9 @@
-package es.rudo.androidbaseproject.domain.usecase
+package com.example.myapplication.domain.usecase
 
-import es.rudo.androidbaseproject.domain.repository.CharacterRepository
+import com.example.myapplication.domain.repository.CharacterRepository
 import javax.inject.Inject
-import es.rudo.androidbaseproject.data.model.Character
-import es.rudo.androidbaseproject.domain.helpers.resultOf
+import com.example.myapplication.data.model.Character
+import com.example.myapplication.domain.helpers.resultOf
 
 class GetCharacterUseCase @Inject constructor(
     private val characterRepository: CharacterRepository

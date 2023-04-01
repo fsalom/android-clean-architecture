@@ -1,6 +1,6 @@
-package es.rudo.androidbaseproject.domain.helpers
+package com.example.myapplication.domain.helpers
 
-import es.rudo.androidbaseproject.data.helpers.ResultError
+import com.example.myapplication.data.helpers.ResultError
 
 inline fun <T> resultOf(block: () -> T): Result<T> {
     return try {

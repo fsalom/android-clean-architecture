@@ -1,4 +1,4 @@
-package es.rudo.androidbaseproject.data.helpers
+package com.example.myapplication.data.helpers
 
 object Config {
     const val HTTP_CLIENT_AUTHORIZATION = "Bearer"

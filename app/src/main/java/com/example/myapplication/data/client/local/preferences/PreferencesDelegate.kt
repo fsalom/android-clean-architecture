@@ -1,4 +1,4 @@
-package es.rudo.androidbaseproject.data.source.local.preferences
+package com.example.myapplication.data.source.local.preferences
 
 import com.google.gson.Gson
 import kotlin.reflect.KProperty

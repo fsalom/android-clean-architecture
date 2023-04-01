@@ -1,11 +1,11 @@
-package es.rudo.androidbaseproject.data.source.local
+package com.example.myapplication.data.source.local
 
-import es.rudo.androidbaseproject.data.model.Character
-import es.rudo.androidbaseproject.data.model.toCharacter
-import es.rudo.androidbaseproject.data.model.toDbModel
-import es.rudo.androidbaseproject.data.source.local.db.CharacterDao
-import es.rudo.androidbaseproject.data.source.local.preferences.AppPreferences
-import es.rudo.androidbaseproject.di.IoDispatcher
+import com.example.myapplication.data.model.Character
+import com.example.myapplication.data.model.toCharacter
+import com.example.myapplication.data.model.toDbModel
+import com.example.myapplication.data.source.local.db.CharacterDao
+import com.example.myapplication.data.source.local.preferences.AppPreferences
+import com.example.myapplication.di.IoDispatcher
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map

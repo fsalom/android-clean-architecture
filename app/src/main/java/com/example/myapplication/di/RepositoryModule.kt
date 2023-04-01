@@ -1,11 +1,11 @@
-package es.rudo.androidbaseproject.di
+package com.example.myapplication.di
 
-import es.rudo.androidbaseproject.domain.repository.CharacterRepository
+import com.example.myapplication.domain.repository.CharacterRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ViewModelComponent
-import es.rudo.androidbaseproject.data.repository.CharacterRepositoryImpl
+import com.example.myapplication.data.repository.CharacterRepositoryImpl
 
 @Module
 @InstallIn(ViewModelComponent::class)

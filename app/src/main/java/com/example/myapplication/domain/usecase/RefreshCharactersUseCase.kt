@@ -1,7 +1,7 @@
-package es.rudo.androidbaseproject.domain.usecase
+package com.example.myapplication.domain.usecase
 
-import es.rudo.androidbaseproject.domain.helpers.resultOf
-import es.rudo.androidbaseproject.domain.repository.CharacterRepository
+import com.example.myapplication.domain.helpers.resultOf
+import com.example.myapplication.domain.repository.CharacterRepository
 import javax.inject.Inject
 
 class RefreshCharactersUseCase @Inject constructor(

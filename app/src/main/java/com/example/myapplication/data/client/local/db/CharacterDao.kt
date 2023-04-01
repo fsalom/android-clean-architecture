@@ -1,7 +1,7 @@
-package es.rudo.androidbaseproject.data.source.local.db
+package com.example.myapplication.data.source.local.db
 
 import androidx.room.*
-import es.rudo.androidbaseproject.data.model.CharacterDbModel
+import com.example.myapplication.data.model.CharacterDbModel
 import kotlinx.coroutines.flow.Flow
 
 @Dao

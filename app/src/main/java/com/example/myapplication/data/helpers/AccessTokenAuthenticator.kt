@@ -1,8 +1,8 @@
-package es.rudo.androidbaseproject.data.helpers
+package com.example.myapplication.data.helpers
 
-import es.rudo.androidbaseproject.data.source.local.preferences.AppPreferences
-import es.rudo.androidbaseproject.data.helpers.Config.HTTP_CLIENT_AUTHORIZATION
-import es.rudo.androidbaseproject.data.helpers.Config.TYPE_ITEM_AUTHORIZATION
+import com.example.myapplication.data.source.local.preferences.AppPreferences
+import com.example.myapplication.data.helpers.Config.HTTP_CLIENT_AUTHORIZATION
+import com.example.myapplication.data.helpers.Config.TYPE_ITEM_AUTHORIZATION
 import okhttp3.Authenticator
 import okhttp3.Request
 import okhttp3.Response

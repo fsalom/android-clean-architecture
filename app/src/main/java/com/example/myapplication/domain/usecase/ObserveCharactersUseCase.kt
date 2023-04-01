@@ -1,12 +1,12 @@
-package es.rudo.androidbaseproject.domain.usecase
+package com.example.myapplication.domain.usecase
 
-import es.rudo.androidbaseproject.data.helpers.RetrofitError
-import es.rudo.androidbaseproject.domain.repository.CharacterRepository
+import com.example.myapplication.data.helpers.RetrofitError
+import com.example.myapplication.domain.repository.CharacterRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
-import es.rudo.androidbaseproject.data.model.Character
-import es.rudo.androidbaseproject.domain.helpers.resultOf
-import es.rudo.androidbaseproject.helpers.Constants.RETRY_TIME_IN_MILLIS
+import com.example.myapplication.data.model.Character
+import com.example.myapplication.domain.helpers.resultOf
+import com.example.myapplication.helpers.Constants.RETRY_TIME_IN_MILLIS
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.map

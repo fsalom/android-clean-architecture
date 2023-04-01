@@ -1,6 +1,6 @@
-package es.rudo.androidbaseproject.data.source.remote.api
+package com.example.myapplication.data.source.remote.api
 
-import es.rudo.androidbaseproject.data.model.ReponseApiModel
+import com.example.myapplication.data.model.ReponseApiModel
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

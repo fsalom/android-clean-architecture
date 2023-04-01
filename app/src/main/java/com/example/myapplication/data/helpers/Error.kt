@@ -1,4 +1,4 @@
-package es.rudo.androidbaseproject.data.helpers
+package com.example.myapplication.data.helpers
 
 sealed class ResultError : Exception()
 

@@ -1,16 +1,17 @@
-package es.rudo.androidbaseproject.di
+package com.example.myapplication.di
 
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import es.rudo.androidbaseproject.BuildConfig
-import es.rudo.androidbaseproject.data.source.remote.api.CharacterApi
+import com.example.myapplication.BuildConfig
+import com.example.myapplication.data.source.remote.api.CharacterApi
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
+import kotlin.text.Typography.dagger
 
 @Module
 @InstallIn(SingletonComponent::class)

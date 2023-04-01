@@ -1,4 +1,4 @@
-package es.rudo.androidbaseproject.di
+package com.example.myapplication.di
 
 import android.content.Context
 import androidx.room.Room
@@ -7,8 +7,8 @@ import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import es.rudo.androidbaseproject.data.source.local.db.AppDatabase
-import es.rudo.androidbaseproject.data.source.local.db.CharacterDao
+import com.example.myapplication.data.source.local.db.AppDatabase
+import com.example.myapplication.data.source.local.db.CharacterDao
 import javax.inject.Singleton
 
 @Module

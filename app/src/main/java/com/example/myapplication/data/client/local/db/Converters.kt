@@ -1,4 +1,4 @@
-package es.rudo.androidbaseproject.data.source.local.db
+package com.example.myapplication.data.source.local.db
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson

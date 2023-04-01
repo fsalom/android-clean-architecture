@@ -1,13 +1,13 @@
-package es.rudo.androidbaseproject.data.repository
+package com.example.myapplication.data.repository
 
-import es.rudo.androidbaseproject.domain.repository.CharacterRepository
-import es.rudo.androidbaseproject.data.source.local.CharacterLocalDataSource
-import es.rudo.androidbaseproject.data.source.remote.CharacterRemoteDataSource
+import com.example.myapplication.domain.repository.CharacterRepository
+import com.example.myapplication.data.source.local.CharacterLocalDataSource
+import com.example.myapplication.data.source.remote.CharacterRemoteDataSource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.onEach
 import javax.inject.Inject
-import es.rudo.androidbaseproject.data.model.Character
-import es.rudo.androidbaseproject.di.IoDispatcher
+import com.example.myapplication.data.model.Character
+import com.example.myapplication.di.IoDispatcher
 import kotlinx.coroutines.CoroutineDispatcher
 
 class CharacterRepositoryImpl @Inject constructor(

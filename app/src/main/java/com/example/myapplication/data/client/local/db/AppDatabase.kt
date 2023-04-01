@@ -1,9 +1,9 @@
-package es.rudo.androidbaseproject.data.source.local.db
+package com.example.myapplication.data.source.local.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import es.rudo.androidbaseproject.data.model.CharacterDbModel
+import com.example.myapplication.data.model.CharacterDbModel
 
 @Database(entities = [CharacterDbModel::class], version = 1)
 @TypeConverters(Converters::class)

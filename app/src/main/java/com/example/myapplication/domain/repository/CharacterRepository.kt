@@ -1,6 +1,6 @@
-package es.rudo.androidbaseproject.domain.repository
+package com.example.myapplication.domain.repository
 
-import es.rudo.androidbaseproject.data.model.Character
+import com.example.myapplication.data.model.Character
 import kotlinx.coroutines.flow.Flow
 
 interface CharacterRepository {

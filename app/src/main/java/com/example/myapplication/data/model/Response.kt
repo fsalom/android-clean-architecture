@@ -1,4 +1,4 @@
-package es.rudo.androidbaseproject.data.model
+package com.example.myapplication.data.model
 
 import com.google.gson.annotations.SerializedName
 

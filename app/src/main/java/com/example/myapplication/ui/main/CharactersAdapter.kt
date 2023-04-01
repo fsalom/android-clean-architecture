@@ -1,4 +1,4 @@
-package es.rudo.androidbaseproject.ui.main
+package com.example.myapplication.ui.main
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -9,10 +9,10 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import es.rudo.androidbaseproject.data.model.Character
-import es.rudo.androidbaseproject.R
-import es.rudo.androidbaseproject.databinding.ItemCharacterBinding
-import es.rudo.androidbaseproject.helpers.extensions.overrideColor
+import com.example.myapplication.data.model.Character
+import com.example.myapplication.R
+import com.example.myapplication.databinding.ItemCharacterBinding
+import com.example.myapplication.helpers.extensions.overrideColor
 
 class CharactersAdapter(
     private val onCharacterClick: (Character) -> Unit

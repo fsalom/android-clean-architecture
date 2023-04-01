@@ -1,7 +1,7 @@
-package es.rudo.androidbaseproject.data.source.local.preferences
+package com.example.myapplication.data.source.local.preferences
 
 import android.content.SharedPreferences
-import es.rudo.androidbaseproject.data.model.Character
+import com.example.myapplication.data.model.Character
 import javax.inject.Inject
 import javax.inject.Singleton
 

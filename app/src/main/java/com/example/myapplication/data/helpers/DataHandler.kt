@@ -1,13 +1,13 @@
-package es.rudo.androidbaseproject.data.helpers
+package com.example.myapplication.data.helpers
 
-import es.rudo.androidbaseproject.helpers.Constants.SERVER_BADREQUEST_CODE
-import es.rudo.androidbaseproject.helpers.Constants.SERVER_CONFLICT_CODE
-import es.rudo.androidbaseproject.helpers.Constants.SERVER_FORBIDDEN_CODE
-import es.rudo.androidbaseproject.helpers.Constants.SERVER_NOCONTENT_CODE
-import es.rudo.androidbaseproject.helpers.Constants.SERVER_NOTACCEPTABLE_CODE
-import es.rudo.androidbaseproject.helpers.Constants.SERVER_NOTFOUND_CODE
-import es.rudo.androidbaseproject.helpers.Constants.SERVER_TIMEOUT_CODE
-import es.rudo.androidbaseproject.helpers.Constants.SERVER_UNAUTHORIZED_CODE
+import com.example.myapplication.helpers.Constants.SERVER_BADREQUEST_CODE
+import com.example.myapplication.helpers.Constants.SERVER_CONFLICT_CODE
+import com.example.myapplication.helpers.Constants.SERVER_FORBIDDEN_CODE
+import com.example.myapplication.helpers.Constants.SERVER_NOCONTENT_CODE
+import com.example.myapplication.helpers.Constants.SERVER_NOTACCEPTABLE_CODE
+import com.example.myapplication.helpers.Constants.SERVER_NOTFOUND_CODE
+import com.example.myapplication.helpers.Constants.SERVER_TIMEOUT_CODE
+import com.example.myapplication.helpers.Constants.SERVER_UNAUTHORIZED_CODE
 import retrofit2.HttpException
 import retrofit2.Response
 import java.io.IOException

@@ -1,4 +1,4 @@
-package es.rudo.androidbaseproject.di
+package com.example.myapplication.di
 
 import android.content.Context
 import android.content.SharedPreferences

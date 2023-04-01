@@ -1,4 +1,4 @@
-package es.rudo.androidbaseproject.data.model
+package com.example.myapplication.data.model
 
 import androidx.room.Embedded
 import androidx.room.Entity
