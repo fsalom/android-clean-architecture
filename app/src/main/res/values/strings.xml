@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">AndroidBaseProject</string>
+    <string name="simple_dialog_title">Título</string>
+    <string name="simple_dialog_text">Texto</string>
+    <string name="shared_preferences_name">MyPreferences</string>
+
+    <!-- DetailActivity -->
+    <string name="detail_name">Name: %s</string>
+    <string name="detail_status">Status: %s</string>
+    <string name="detail_species">Species: %s</string>
+    <string name="detail_location">Location: %s</string>
+
+    <!-- Errors -->
+    <string name="error_not_found">No se encontró el recurso</string>
+    <string name="error_internal_server">Error del servidor</string>
+    <string name="error_generic">Ha ocurrido un error inesperado</string>
+    <string name="error_internet_connection">Error de conexión a internet</string>
 </resources>
