@@ -1,7 +1,6 @@
 package com.example.clean.data.repository
-
 import com.example.clean.data.source.CharacterDataSource
-import com.example.clean.data.source.CharacterDataSourceImpl
+import com.example.clean.data.model.Character
 
 interface CharacterRepository {
     fun getCharacters(): List<Character>
