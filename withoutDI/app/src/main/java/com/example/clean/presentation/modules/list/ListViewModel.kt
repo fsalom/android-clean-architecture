@@ -1,4 +1,6 @@
 package com.example.clean.presentation.modules.list
+import android.util.Log
+import com.example.clean.data.model.Character
 import com.example.clean.domain.usecase.CharacterUseCase
 
 class ListViewModel {
@@ -8,7 +10,7 @@ class ListViewModel {
         this.characterUseCase = usecase
     }
 
-    private fun getCharacters() {
-        characterUseCase.getCharacters()
+    fun getCharacters(): List<Character> {
+        return characterUseCase.getCharacters()
     }
 }

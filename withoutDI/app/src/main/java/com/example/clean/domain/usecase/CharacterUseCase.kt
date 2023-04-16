@@ -5,7 +5,7 @@ import com.example.clean.data.repository.CharacterRepository
 interface CharacterUseCase {
     fun getCharacters(): List<Character>
 }
-class CharacterUseCaseImp: CharacterUseCase {
+class CharacterUseCaseImpl: CharacterUseCase {
     private val repository: CharacterRepository
 
     constructor(repository: CharacterRepository) {
