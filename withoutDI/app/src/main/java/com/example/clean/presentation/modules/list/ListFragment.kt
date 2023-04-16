@@ -12,7 +12,7 @@ import com.example.clean.databinding.FragmentFirstBinding
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
-class FirstFragment : Fragment() {
+class ListFragment : Fragment() {
 
     private var _binding: FragmentFirstBinding? = null
 
