@@ -9,6 +9,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.clean.R
 import com.example.clean.databinding.FragmentSecondBinding
 
+
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */

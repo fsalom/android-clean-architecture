@@ -2,18 +2,17 @@ package com.example.clean.presentation.modules.list
 import com.example.clean.data.repository.CharacterRepositoryImpl
 import com.example.clean.domain.usecase.CharacterUseCaseImpl
 
-
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import android.widget.ArrayAdapter
+import android.widget.ListView
 import com.example.clean.R
 import com.example.clean.data.source.CharacterDataSourceImpl
 import com.example.clean.databinding.FragmentFirstBinding
+import com.example.clean.presentation.app.MainActivity
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
@@ -39,9 +38,9 @@ class ListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonFirst.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
-        }
+        val lv = view.findViewById(R.id.charactersList) as ListView
+        val adapter = ArrayAdapter(requireContext(), android.R.layout.simple_list_item_1, viewModel.getCharacters())
+        lv.adapter = adapter
     }
 
     override fun onDestroyView() {
